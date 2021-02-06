@@ -1,0 +1,307 @@
+
+*{ margin: 0;
+    padding: 0;
+     
+}
+header{ width: 100%;
+    height: 150px;
+background-color: rgb(20, 20, 20);
+
+
+
+}
+
+    
+
+
+    
+#nav { height: 150px;
+    float: left;
+    width: 72%;
+    color: rgb(251, 252, 249);
+    line-height: 150px;
+}
+
+span{width: 27%;
+    height: 100%;
+    float:right;
+    background-color: rgb(192,192,192);
+
+    text-align: center;
+
+}
+#img1 {
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 50px;
+}
+#h11{
+
+width: 100px;
+float: left;
+line-height: 150px;
+}
+nav h1{ 
+    width: 100%;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+ul{ color: #000;
+}
+aside li{background-color: chartreuse;
+    margin: 20px;
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 30px;
+    
+
+}
+main {background-color: rgb(0, 238, 255);
+width: 80%;
+height:2800px;
+float: right;  
+
+
+}
+aside h1{   text-align: center; width: 100%;
+    border-bottom:2px double red;}
+aside {float: left;
+    width:20% ;
+    height: 2800px;
+    background-color: rgb(82, 247, 6);
+   
+
+}
+ 
+
+
+
+    
+    
+#img3{
+    width: 35%;
+    height: 250px;
+    float: left; border-radius: 10px;
+    margin: 2px;
+    
+} 
+#img4{
+    width: 35%;
+    height: 250px;
+    float: right; border-radius: 10px;
+    margin: 2px;
+
+}
+
+h1{
+   float: right;
+    display: inline-block;
+}
+aside a{
+    text-decoration: none;
+   
+   
+}
+li:hover{ background-color: rgb(255, 102, 0);
+
+   
+
+}
+h2:hover{ 
+    color: red;
+
+   
+
+}
+
+#id{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:15px;
+    border-bottom:2px double red;
+
+}
+#ee{width: 100%;
+    text-align: center; border-bottom:2px double red;
+}
+#id:hover{
+    widows: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:1240px){
+    #id {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        border-bottom: 2px double red;
+    }
+}
+@media only screen and (max-width:926px){
+    #nav {
+        height: 150px;
+        float: left;
+        width: 70%;
+        color: rgb(251, 252, 249);
+        line-height: 150px;
+    }span {
+        width: 30%;
+        height: 100%;
+        float: right;
+        background-color: rgb(192,192,192);
+        text-align: center;
+    }
+}
+@media only screen and (max-width:834px){
+
+    #nav {
+        height: 50px;
+        float: left;
+        width: 100%;
+        color: rgb(251, 252, 249);
+        line-height: 50px;
+    }header {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(20, 20, 20);
+    }span {
+        width: 100%;
+        height: 100%;
+        float: right;
+        background-color: rgb(192,192,192);
+        text-align: center;
+    }#h11 {
+        width: 100px;
+        float: left;
+        line-height: 50px;
+    }
+    #img1 {
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-radius: 50px;
+    }
+}
+@media only screen and (max-width:790px){
+    #id {
+        width: 30px;
+        height: 30px;
+        margin: 0px;
+        border-bottom: 2px double red;
+    }
+    #img4 {
+        width: 29%;
+        height: 200px;
+        float: right;
+        border-radius: 10px;
+        margin: 2px;
+    }#img3 {
+        width: 29%;
+        height: 200px;
+        float: left;
+        border-radius: 10px;
+     
+}
+@media only screen and (max-width:532px){#img4 {
+    width: 30%;
+    height: 200px;
+    float: right;
+    border-radius: 10px;
+    margin: 2px;
+}#img3 {
+    width: 30%;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+    margin: 2px;
+}main {
+    background-color: rgb(0, 238, 255);
+    width: 100%;
+    height: 2712px;
+    float: right;
+}aside {
+    float: left;
+    width: 100%;
+    height: 247px;
+    background-color: rgb(82, 247, 6);
+}
+
+}
+@media only screen and (max-width:417px){
+
+    nav h1 {
+        width: 100%;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: large;
+    }
+    h2{
+        font-size:large ;
+    }main {
+        background-color: rgb(0, 238, 255);
+        width: 100%;
+        height: 2708px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width:314px){ nav h1 {
+    width: 100%;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: small;}
+    #img4 {
+        width: 28%;
+        height: 200px;
+        float: right;
+        border-radius: 10px;
+        margin: 2px;
+    }#img3 {
+        width: 28%;
+        height: 200px;
+        float: left;
+        border-radius: 10px;
+        margin: 2px;
+    }
+}
+@media only screen and (max-width:280px){
+    
+    #img3 {
+        width: 25%;
+        height: 200px;
+        float: left;
+        border-radius: 10px;
+        margin: 2px;
+    }
+    #img4 {
+        width: 25%;
+        height: 200px;
+        float: right;
+        border-radius: 10px;
+        margin: 2px;
+    }
+}
+@media only screen and (max-width:201px){
+    #img4 {
+        width: 20%;
+        height: 200px;
+        float: right;
+        border-radius: 10px;
+        margin: 2px;
+    }
+    #img3 {
+        width: 20%;
+        height: 200px;
+        float: left;
+        border-radius: 10px;
+        margin: 2px;
+    }
+    
+}
